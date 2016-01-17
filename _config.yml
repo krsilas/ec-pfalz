@@ -1,0 +1,14 @@
+# Site settings
+title: EC-Pfalz
+email:
+  tope: tobias.reeber@ec-pfalz.de
+  nina: nina.perl@gmx.de
+description: Herzlich Willkommen beim EC-Pfalz.  Hier findet ihr unsere Freizeit- und Seminarangebote für Kinder, Jugendliche und Junge Erwachsene. Viel Spaß beim stöbern!
+url: "http://ec-pfalz.de"
+markdown: kramdown
+author:
+    name: ec-pfalz
+    creator: Silas Krause
+sass:
+    sass_dir: _sass
+    style: compressed

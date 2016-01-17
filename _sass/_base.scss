@@ -1,0 +1,112 @@
+body {
+  font-family: "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.banner { padding: 30px 2%;}
+.centered {
+  margin:0 auto;
+  max-width: 820px;
+}
+.caption {
+  font-family: "Source Sans Pro";
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+#logo {
+  background-color: $brandcolor-bright;
+  text-align: center;
+  img {
+    height: 120px;
+    margin: 8px auto;
+    width: auto;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
+#freizeiten {
+  background-color: $brandcolor;
+  text-align: left;
+  img {
+    border: 2px solid white;
+    height: 120px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin-bottom: 5px;
+  }
+  .button {
+    background-color: darken($brandcolor-dim, 12);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .cta {
+    display: inline-table;
+    a {margin-right: 5px;}
+  }
+}
+#newsletter {
+  border-image-source: url("../img/stripes.png");
+  border-image-slice: 20;
+  border-image-width: 15px;
+  border-image-repeat: repeat;
+  border-image-outset: 15px;
+  -webkit-border-image-source: url("../img/stripes.png");
+  -webkit-border-image-slice: 20;
+  -webkit-border-image-width: 15px;
+  -webkit-border-image-repeat: repeat;
+  -webkit-border-image-outset: 15px;
+  margin: 0 15px;
+  margin-top: 0;
+  padding-right: 0;
+  text-align: center;
+  label {text-align: left;}
+  button {top: 24px; position: relative;}
+  .clear input {width: 80%; margin: 0 auto; display: block;}
+}
+#contact {
+  background-color: $brandcolor-dim;
+  color: darken($brandcolor-dark, 8);
+  img {
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    height: 120px;
+    margin-right: 25px;
+    width: auto;
+  }
+  .refname {font-size: 1.8em; margin: 8px 0; }
+  p {font-size: 15px; margin: 8px 0;}
+  a {color: darken($brandcolor-dark, 8);}
+  .refs .columns {margin: 20px 0; text-align: left; }
+  @media (max-width: 393px), (min-width: 40em) and (max-width: 63.9375em){
+    .refs .columns {text-align: center;}
+    img {float: none; margin: 0 auto; display: block;}
+  }
+}
+#about {
+  background-color: $brandcolor-dark;
+  color: lightgrey;
+  a {color: $brandcolor-bright;}
+}
+footer {
+  background-color: darken($brandcolor-dark, 7);
+  color: lightgrey;
+  padding:0 2%;
+  .credits, a {color: grey; float: right;}
+}
+.chromeframe {
+  background: #DC4141;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 9000;
+  a {color: lightgrey; text-decoration:underline;}
+}

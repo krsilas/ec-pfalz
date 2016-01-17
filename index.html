@@ -1,0 +1,62 @@
+---
+layout: default
+title: Startseite
+---
+<div class="banner" id="logo">
+  <img src="assets/img/logo.png" alt="ec-logo"/>
+  <h1>EC-Pfalz</h1>
+</div>
+
+<div class="banner" id="freizeiten">
+  <div class="centered">
+  <h2 class="caption">Freizeiten</h2>
+  <a href="assets/prospekt_16.pdf"><img src="assets/img/freizeiten16.jpg" alt="Freizeitheft" style="float: left;"></a>
+  <p>In unserem Freizeitheft findest du unsere Freizeitangebote und Seminare für jede Alters- und Interessengruppe. </p>
+    <div class="cta">
+      <a class="button" style="background-color: #13461D;" href="assets/prospekt_16.pdf">Freizeitheft</a> <a class="button" href="assets/anmeldeformular.pdf">Anmeldeformular</a> <a class="button" href="assets/teilnahmebedingungen.pdf">Teilnahmebedingungen</a>
+    </div>
+  </div>
+</div>
+
+<div class="banner" id="newsletter">
+<div class="centered">
+ {% include newsletter.html %}
+</div>
+</div>
+
+<div class="banner" id="contact">
+  <div class="centered">
+  <h2 class="caption">Kontakt</h2>
+  <div class="row refs">
+    <div class="large-6 medium-6 columns">
+      <img src="assets/img/tope.jpg" alt="tope" />
+      <h2 class="refname">Tobias Reeber</h2>
+      <p><i>Jugendreferent</i></p>
+      <a href="mailto:{{site.email.tope}}">{{site.email.tope}}</a>
+    </div>
+    <div class="large-6 medium-6 columns">
+      <img src="assets/img/nina.jpg" alt="nina" />
+      <h2 class="refname">Nina Perl</h2>
+      <p><i>Jugendreferentin</i></p>
+      <a href="mailto:{{site.email.nina}}">{{site.email.nina}}</a>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="banner" id="about">
+  <div class="centered" style="text-align: left;">
+  <h2 class="caption">Über uns</h2>
+  <p>Der EC (Entschieden für Christus) in Deutschland engagiert sich seit über 120 Jahren für christliche Kinder- und Jugendarbeit. In wöchentlichen Gruppen werden über 35.000 junge Menschen erreicht. Die weltweite, überkonfessionelle EC-Bewegung hat ca. 2.000.000 Mitglieder und ist in etwa 50 Staaten aktiv. </p>
+  <p>Unser EC-Pfalz arbeitet eng mit dem <b><a href="http://www.sgv-online.de/" target="_blank">S&uuml;dwestdeutschen Gemeinschaftsverband</a></b> zusammen und gestaltet dessen Jugendarbeit. Diese gehört als freier Jugendverband zur Evangelischen Jugend der Pfalz. </p>
+  <p>Wir haben zwei große Standbeine in unserem EC: <br>
+  Wöchentliche Gruppen & Freizeiten/Veranstaltungen. </p>
+  <p><b><a title="www.ec.jugend.de" href="http://www.ec-jugend.de/" target="_blank" >Hier</a></b> findest Du weitere Infos zu den Zielen, Grundsätzen und Werten unserer Arbeit, sowie zur Geschichte des EC.</p>
+
+</p>
+  </div>
+</div>
+<footer>
+&copy; 2015 {{site.title}}
+<span class="credits">Erstellt von <a href="http://silaskrau.se">{{site.author.creator}}</a></span>
+</footer>
